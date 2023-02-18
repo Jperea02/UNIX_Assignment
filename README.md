@@ -1,17 +1,5 @@
 #UNIX Assignment
 
-##Cloning This Repository
-
-To clone this repository using SSH:
-
-`git clone git@github.com:Jperea02/UNIX_Assignment.git`
-
-Or use the HTTPS URL:
-
-`git clone https://github.com/Jperea02/UNIX_Assignment.git`
-
-##Data Inspection
-
 ###Attributes of fang_et_al_genotypes
 
 Here is my snippet of code used for data inspection:
