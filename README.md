@@ -58,7 +58,7 @@ Here is my snippet of code used for data processing:
 
 Here is my brief description of what this code does:
 
-* SNP_ID and SNP data for maize (group = ZMMIL, ZMMLR, and ZMMMR) is extracted from fang_et_al_genotypes.txt with header, transposed and sorted based on SNP_ID. The header is removed from snp_position.txt and sorted based on SNP_ID. The resulting two sorted files created are subsequently joined.
+* SNP_ID and SNP data for maize (group = ZMMIL, ZMMLR, and ZMMMR) is extracted from fang_et_al_genotypes.txt with header, transposed and sorted based on SNP_ID. The header and columns other than SNP_ID, Chromsome and Position are removed from snp_position.txt and sorted based on SNP_ID. The resulting two sorted files created are subsequently joined.
 * For all SNPs with unknown or multiple positions in the genome (third column), their data is extracted from the joined file after a header indicating SNP_ID, Chromosome, Position and Genotype Data is added.
 * A for loop is utilized to separate the data based on chromosome, sorted based on increasing or decreasing positions on the third column and a header is added to indicate SNP_ID, Chromosome, Position and Genotype Data within the file. FOr files with decreasing positions, missing data encoded by ? is replaced by - within the for loop. 
 
